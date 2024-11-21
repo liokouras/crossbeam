@@ -98,4 +98,4 @@ extern crate std;
 #[cfg(feature = "std")]
 mod deque;
 #[cfg(feature = "std")]
-pub use crate::deque::{Injector, Steal, Stealer, Worker};
+pub use crate::deque::{Steal, Stealer, Worker};
